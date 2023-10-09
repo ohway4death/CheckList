@@ -5,16 +5,18 @@ export const Radio = (props) => {
   const { text, list } = props;
   return (
     <>
-      <div>
+      <div className="radioButton">
         {text}
-        <label>
-          <input type="radio" />
-          {list[0]}
-        </label>
-        <label>
-          <input type="radio" />
-          {list[1]}
-        </label>
+        <div className="radioField">
+          <label className="inputRadioButton">
+            <input type="radio" name="group" />
+            {list[0]}
+          </label>
+          <label className="inputRadioButton">
+            <input type="radio" name="group" />
+            {list[1]}
+          </label>
+        </div>
       </div>
     </>
   );

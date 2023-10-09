@@ -1,0 +1,17 @@
+.inputText {
+  margin: 2px;
+  padding: 1px;
+  /* border: 1px solid black; */
+}
+
+.inputTextBox {
+  margin: 2px;
+  padding: 2px;
+  /* border: 1px solid red; */
+}
+
+.supplement {
+  margin: 2px;
+  padding: 1px;
+  /* border: 1px solid blue; */
+}

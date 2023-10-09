@@ -35,7 +35,7 @@ export default function App() {
 
       <Radio text="壁の素材は？" list={["クロス", "それ以外"]} />
 
-      <Radio text="ドアの開け閉めはスムーズ？" list={["radio", "No"]} />
+      <Radio text="ドアの開け閉めはスムーズ？" list={["Yes", "No"]} />
 
       <Radio text="納戸に穴は開いている？" list={["Yes", "No"]} />
 

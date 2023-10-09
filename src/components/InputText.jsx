@@ -5,11 +5,12 @@ export const InputText = (props) => {
   const { text, supplement } = props;
   return (
     <>
-      <label className="inputText">
+      <div className="inputText">
         {text}
-        <input className="input" type="text" />
-      </label>
-      <p>※{supplement}</p>
+        <input className="inputTextBox" type="text" />
+      </div>
+
+      <div className="supplement">※{supplement}</div>
     </>
   );
 };

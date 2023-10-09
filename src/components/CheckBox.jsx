@@ -5,9 +5,9 @@ export const CheckBox = (props) => {
   const { text } = props;
   return (
     <>
-      <div>
-        <label className="CheckBox">
-          <input className="input" type="checkbox" />
+      <div className="checkBox">
+        <label>
+          <input className="inputCheckBox" type="checkbox" />
           {text}
         </label>
       </div>
