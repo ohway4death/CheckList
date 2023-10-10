@@ -8,14 +8,14 @@ export const Radio = (props) => {
       <div className="radioButton">
         {text}
         <div className="radioField">
-          <label className="inputRadioButton">
-            <input type="radio" name="group" />
-            {list[0]}
-          </label>
-          <label className="inputRadioButton">
-            <input type="radio" name="group" />
-            {list[1]}
-          </label>
+          {list.map((item, index) => {
+            return (
+              <label className="inputRadioButton">
+                <input type="radio" name="group" />
+                {item}
+              </label>
+            );
+          })}
         </div>
       </div>
     </>
